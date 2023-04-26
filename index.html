@@ -225,6 +225,74 @@
 			</div>
 			<!-- Other Project Section End -->
 		<!-- Side Content Section End -->
+
+		<!-- Contact Me Information Start -->
+		<div class="container-fluid min-vh-100 bg-dark p-5">
+			<h3 class="text-white">Contact Me</h3>
+			<div class="row">
+				<div class="offset-lg-4 offset-md-2 col-xl-4 col-md-8 col-sm-12 bg-primary d-lg-flex justify-content-center text-white">
+					<form>
+					  <div class="form-group">
+					    <label for="input_name">Name</label>
+					    <input type="text" class="form-control" id="input_name">
+					  </div>
+
+					  <div class="form-group">
+					      <label for="input_email">Email address</label>
+					      <input type="email" class="form-control" id="input_email" aria-describedby="emailHelp">
+					  </div>
+
+					  <div class="form-group">
+					      <label for="input_number">Contact Number</label>
+					      <input type="number" class="form-control" id="input_number">
+					  </div>
+
+					  <div class="form-group">
+					  	<label for="select_concern">Concern</label>
+					  	<select class="custom-select" id="select_concern">
+					  	  <option selected>Please select a concern</option>
+					  	  <option value="1">Quotation</option>
+					  	  <option value="2">Inquiry</option>
+					  	  <option value="3">Specific Concern</option>
+					  	</select>
+					  </div>
+
+					  <div class="form-group">
+					    <label for="input_message">Message</label>
+					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					  </div>
+
+					  <!-- Button trigger modal -->
+					  <button type="button" class="btn btn-primary mb-3 bg-dark" data-toggle="modal" data-target="#exampleModal">
+					    Launch demo modal
+					  </button>
+
+					  <!-- Modal -->
+					  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					    <div class="modal-dialog">
+					      <div class="modal-content">
+					        <div class="modal-header">
+					          <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
+					          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					            <span aria-hidden="true">&times;</span>
+					          </button>
+					        </div>
+					        <div class="modal-body text-dark">
+					          Message Successfully Sent
+					        </div>
+					        <div class="modal-footer">
+					          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					        </div>
+					      </div>
+					    </div>
+					  </div>
+					  
+					</form>
+				</div>
+			</div>
+
+		</div>
+		<!-- Contact Me Information End -->
 		</div>
 	</div>
 	<!-- Main Content Section End -->
